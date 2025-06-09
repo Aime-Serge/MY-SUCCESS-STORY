@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    
+  background-color: #f7f9fc;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: block;
+    align-items:center;
+    justify-content: center;
+}
+header {
+    background: #0075C2;
+    color: #F68B1F;
+    padding: 10px 0;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: justify-between;
+    grid-template-columns: 1fr 2fr 3fr;
+    column-span: all;
+}
+header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+header img{
+    width: 50%;
+    border-radius: 50%;
+}
+nav {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+main {
+    padding: 20px;
+}
+/* ========== Base Styles ========== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+ 
+}
+
+/* ========== Section Styling ========== */
+.success-story {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* ========== Headers ========== */
+.success-story header h2 {
+    align-items: center;
+  font-size: 28px;
+  color: #F68B1F;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.success-story h3 {
+  color: #1d3557;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  border-left: 5px solid #457b9d;
+  padding-left: 10px;
+}
+
+/* ========== Paragraphs and Quotes ========== */
+.success-story p {
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.success-story blockquote {
+  font-style: italic;
+  background-color: #f1f8ff;
+  border-left: 4px solid #2196f3;
+  padding: 10px 20px;
+  margin: 20px 0;
+  color: #1c3f70;
+  border-radius: 6px;
+}
+
+/* ========== Footer ========== */
+.success-story footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px dashed #ccc;
+}
+
+.success-story footer h3 {
+  color: #7b2cbf;
+  border-color: #b5179e;
+}
+
+.success-story footer p {
+  font-weight: 500;
+  color: #444;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+  .success-story {
+    padding: 20px;
+  }
+
+  .success-story h2 {
+    font-size: 24px;
+  }
+
+  .success-story h3 {
+    font-size: 20px;
+  }
+
+  .success-story p {
+    font-size: 15px;
+  }
+}
